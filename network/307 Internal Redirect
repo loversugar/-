@@ -1,0 +1,8 @@
+when my FE proejct accessed BE, it happend at 307 Internal Redirect with Non-Authoritative-Reason: HSTS
+So I search HSTS using google, If you need to know the information in detail. please click this link https://stackoverflow.com/questions/34108241/non-authoritative-reason-header-field-http.
+And now we need to know why to happend it?
+
+The server that you are trying to connect with uses strict-transport-secure(HSTS) to promise that using https access the website 
+rather than HTTP. In other words, you must access this server using https, like that chrome change http://domain to https://domain.
+We know using https is more safety than http.
+continue....
